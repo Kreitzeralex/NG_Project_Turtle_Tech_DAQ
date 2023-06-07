@@ -121,7 +121,7 @@ while True:
         print('Data Saved')
 
           # The below code is not used by the DAQ team for this year but was left for other teams' reference
-#         ##prepare data for transmission through Radio connected via USB
+#         #prepare data for transmission through Radio connected via USB
 # 
 #         # limit decimal places of latitude and longitude
 #         limited_lat = "{:.6f}".format(gps.latitude)
