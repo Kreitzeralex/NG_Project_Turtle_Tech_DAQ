@@ -17,7 +17,7 @@ import mysql.connector
 def read_line():
     """
     taken from the ftdi library and modified to 
-    use the ezo line separator "\r"
+    use the ezo line separator"\r"
     """
     lsl = len(b'\r')
     line_buffer = []
