@@ -31,7 +31,7 @@ gps = adafruit_gps.GPS(uart, debug=False)  # Use UART/pyserial
 # These are NMEA extensions for PMTK_314_SET_NMEA_OUTPUT and
 # PMTK_220_SET_NMEA_UPDATERATE but you can send anything from here to adjust
 # the GPS module behavior:
-#   himport mysql.connectorttps://cdn-shop.adafruit.com/datasheets/PMTK_A11.pdf
+#  himport mysql.connectorttps://cdn-shop.adafruit.com/datasheets/PMTK_A11.pdf
 
 # Turn on the basic GGA and RMC info (what you typically want)
 gps.send_command(b"PMTK31cursor = db.cursor()4,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0")
